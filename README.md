@@ -1,13 +1,12 @@
 # Lune OJ
 ![screenshot](logo.png)
 
-Lune OJ는 오직 **[Luau](https://luau-lang.org/)**와 **[Lune](https://lune-org.github.io/docs)** 환경만으로 구동되는 빠르고 가벼운 알고리즘 채점(Online Judge) 시스템입니다.  
+Lune OJ는 오직 [Luau](https://luau-lang.org/)와 [Lune](https://lune-org.github.io/docs) 환경만으로 구동되는 빠르고 가벼운 알고리즘 채점(Online Judge) 시스템입니다.  
 경쟁 프로그래밍(CP)의 표준인 `testlib.h`의 철학을 Luau로 완벽히 이식하여, 무거운 백엔드 서버나 복잡한 의존성 없이 로컬 환경에서 즉시 문제를 세팅하고 채점할 수 있습니다.
 
 ## Features
 - **순수 Lune 기반**: Node.js나 Python 등 외부 런타임 없이 `lune` 실행 파일 하나로 동작합니다.
 - **Testlib.luau 내장**: `validator`(엄격한 입력 검증)와 `checker`(유연한 정답 비교)를 지원하여 CP 표준에 맞는 문제 출제가 가능합니다.
-- **완벽한 모듈화**: 채점기(Grader), 로거(Logger), 파일 시스템 유틸리티(FS Util)가 분리되어 있어 유지보수와 확장이 매우 쉽습니다.
 - **크로스 플랫폼**: Windows, macOS, Linux 환경 어디서든 경로 충돌 없이 안정적으로 채점(`AC`, `WA`, `TLE`, `RTE`)을 수행합니다.
 
 ## 설치와 준비
